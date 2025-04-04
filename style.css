@@ -1,0 +1,60 @@
+form{
+ display: flex;
+flex-direction: column;
+width: 35%;
+padding: 20px;
+border: 2px solid cornflowerblue;
+border-radius: 20px;
+gap: 8px;
+background-color: white;
+}
+div{
+    justify-content: center;
+    display: flex;
+    margin: 30px;
+}
+body{
+    background: linear-gradient(90deg,rgb(56, 56, 233),rgb(218, 40, 218));
+}
+
+input{
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 700
+}
+
+button{
+    padding: 20px;
+    margin: 15px;
+    border-radius: 15px;
+    font-size: large;
+    background: linear-gradient(90deg,rgb(56, 56, 233),rgb(218, 40, 218) );
+}
+label{
+    font-weight: 900;
+}
+
+button:hover{
+    background: linear-gradient(90deg,rgb(218, 40, 218),rgb(56, 56, 233) );
+    transform: translateY(-3px);
+    box-shadow: 4px 4px 4px;
+}
+input[type="text"]::placeholder{
+    color: red;
+
+}
+input[type="password"]::placeholder{
+    color: red;
+}
+input[type="email"]::placeholder{
+    color: red;
+}
+h1{
+    text-align: center;
+color: rgb(6, 6, 138);
+margin-top: 5px;
+}
+select{
+    color: red;
+    font-weight: 700;
+}
